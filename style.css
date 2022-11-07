@@ -28,4 +28,14 @@ html, body {
   border-right-style: solid;
   border-bottom-style: dotted;
   border-left-style: solid;}
+
+.p1{
+  font-family:  "Lucida Console", "Courier New", monospace;
+   text-shadow: 2px 2px 5px red;
+}
+
+.p2{
+  font-family: "Courier New";
+  text-shadow: 2px 2px 5px green;
+}
          
