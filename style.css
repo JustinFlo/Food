@@ -41,6 +41,9 @@ html, body {
   word-spacing: 7px;
 }
 
+.p3{
+  font-family: "Times New Roman", "Georgia",  serif;
+}
 a:link, a:visited {
   background-color: white;
   color: black;
@@ -61,3 +64,88 @@ a.two, a.two:visited{
 a.two:link {color:#c38076;}
 a.two:visited {color:#390493;}
 a.two:hover {font-family:monospace;}
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+    body {
+      background-color: lightblue;
+    }
+    body {
+  font-family: "Audiowide", sans-serif;
+}
+
+    p {
+  font-size: 14px;
+      color:bisque
+}
+    li {
+      font-size: 20px;
+      color:ghostwhite
+    }
+
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #777;
+  transform: translateY(4px);
+}
+
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f30430;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button2:hover {background-color: #c20326}
+
+.button2:active {
+  background-color: #4d010f;
+  box-shadow: 0 5px #777;
+  transform: translateY(4px);
+}
